@@ -15,10 +15,6 @@ import java.util.List;
 @RequestMapping("/api")
 @AllArgsConstructor
 public class managementcontroller {
-    @Autowired
-    bossrepository bossrepo;
-    @Autowired
-    employeerepository emprepo;
 
     private final List<employee> employees;
     private final List<boss> bosses;
